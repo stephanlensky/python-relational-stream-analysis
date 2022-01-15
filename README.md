@@ -74,3 +74,10 @@ stream.ingest("B")
 ```
 
 As you can see, the addition of extraneous data in the middle of the stream has no effect on the completed flows. A need for this resilience when developing tools to analyze network captures was the primary motivation for developing this library.
+
+
+## Installation
+
+```
+pip3 install relational-stream
+```
