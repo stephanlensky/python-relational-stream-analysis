@@ -1,2 +1,2 @@
-from .flow import Flow, FlowDefinition
+from .flow import Flow
 from .stream import RelationalStream
