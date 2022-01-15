@@ -21,6 +21,11 @@ version = "0.1.0"
 description = "A Python library for relational stream analysis."
 authors = ["Stephan Lensky <stephanl.public@gmail.com>"]
 license = "GPL-3.0-only"
+homepage = "https://github.com/stephanlensky/python-relational-stream-analysis"
+repository = "https://github.com/stephanlensky/python-relational-stream-analysis"
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.scripts]
 amt = "apple_music_tools.main:app"
