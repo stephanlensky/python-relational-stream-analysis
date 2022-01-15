@@ -3,7 +3,7 @@ A Python (3.9+) library for relational stream analysis. Define sequences ("flows
 
 ## Example
 
-It can be a bit hard to wrap your head around this library does just from a written description, so let's take a look at a code example. The following shows a class which can be used to analyze a stream of strings, filtering out sequences with a predefined format. However, the included classes are fully generic, so a similar `Flow` could easily be created for a stream of HTTP requests.
+It can be a bit hard to wrap your head around what this library does just from a written description, so let's take a look at a code example. The following shows a class which can be used to analyze a stream of strings, filtering out sequences with a predefined format. However, the included classes are fully generic, so a similar `Flow` could easily be created for a stream of HTTP requests.
 
 ```python
 import re
