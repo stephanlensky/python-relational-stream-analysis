@@ -44,8 +44,8 @@ class RelationalStream(Generic[T]):
                     self.__incomplete_flows[flow_cls].remove(flow)
                     self.__complete_flows[flow_cls].append(flow)
 
-    def incomplete_flows(self, flow_type: F) -> list[F]:
+    def incomplete_flows(self, flow_type: Type[F]) -> list[F]:
         return self.__incomplete_flows[flow_type]  # type: ignore
 
-    def completed_flows(self, flow_type: F) -> list[F]:
+    def completed_flows(self, flow_type: Type[F]) -> list[F]:
         return self.__complete_flows[flow_type]  # type: ignore
