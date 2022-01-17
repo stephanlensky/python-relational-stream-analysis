@@ -3,7 +3,7 @@ from typing import Generic, Type, TypeVar
 from relational_stream.flow import Flow
 
 T = TypeVar("T")
-F = TypeVar("F", bound=Type[Flow])
+F = TypeVar("F")
 
 
 class RelationalStream(Generic[T]):
