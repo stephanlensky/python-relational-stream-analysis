@@ -28,9 +28,6 @@ include = [
     "LICENSE",
 ]
 
-[tool.poetry.scripts]
-amt = "apple_music_tools.main:app"
-
 [tool.poetry.dependencies]
 python = "^3.9"
 pytest = "^6.2.5"
